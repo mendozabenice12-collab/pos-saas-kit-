@@ -15,6 +15,7 @@ export default function Navbar() {
     { label: 'Event', href: '#event' },
     { label: 'Breeds', href: '#breeds' },
     { label: 'Schedule', href: '#schedule' },
+    { label: 'Register', href: '#register' },
   ]
 
   return (
@@ -33,7 +34,7 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a href="#event" className="bg-sabong-red text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-red-700 transition-colors">
+          <a href="#register" className="bg-sabong-red text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-red-700 transition-colors">
             Register Now
           </a>
         </div>
@@ -51,7 +52,7 @@ export default function Navbar() {
                 {l.label}
               </a>
             ))}
-            <a href="#event" onClick={() => setOpen(false)} className="bg-sabong-red text-white text-center text-sm font-semibold px-5 py-2.5 rounded-full">
+            <a href="#register" onClick={() => setOpen(false)} className="bg-sabong-red text-white text-center text-sm font-semibold px-5 py-2.5 rounded-full">
               Register Now
             </a>
           </div>

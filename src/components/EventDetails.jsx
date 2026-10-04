@@ -32,7 +32,7 @@ export default function EventDetails() {
             Plus consolation prizes for runners-up and daily high-scoring handlers.
             Total prize pool exceeds ₱1,000,000.
           </p>
-          <a href="#schedule" className="inline-block bg-sabong-red text-white font-semibold px-8 py-3 rounded-full hover:bg-red-700 transition-colors">
+          <a href="#register" className="inline-block bg-sabong-red text-white font-semibold px-8 py-3 rounded-full hover:bg-red-700 transition-colors">
             Register Your Entry
           </a>
         </div>

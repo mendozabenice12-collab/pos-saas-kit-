@@ -4,6 +4,7 @@ import About from './components/About.jsx'
 import EventDetails from './components/EventDetails.jsx'
 import Breeds from './components/Breeds.jsx'
 import Schedule from './components/Schedule.jsx'
+import Registration from './components/Registration.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <EventDetails />
       <Breeds />
       <Schedule />
+      <Registration />
       <Footer />
     </div>
   )
